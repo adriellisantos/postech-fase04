@@ -1,6 +1,5 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.preprocessing import MinMaxScaler, OneHotEncoder, OrdinalEncoder, LabelEncoder
-from imblearn.over_sampling import SMOTE
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
