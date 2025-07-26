@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 
 # Carrega o dataset com os dados de obesidade
-dados = pd.read_csv('modelo/dados_obesidade.csv')
+dados = pd.read_csv('base_dados/dados_obesidade.csv')
 
 #Aplicando estilo ao componente de lista (selectbox/radio) no Streamlit
 st.markdown('<style>div[role="listbox"] ul{background-color: #6e42ad}; </style>', unsafe_allow_html=True)
