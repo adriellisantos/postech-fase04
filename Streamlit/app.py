@@ -53,7 +53,7 @@ input_fumar = st.radio(' Você fuma?',['Sim','Não'], index=0)
 input_fumar_dict = {'Sim': 1, 'Não': 0}
 input_fumar = input_fumar_dict.get(input_fumar)
 st.write('### Água')
-input_agua = float(st.slider('Quanta de água você bebe diariamente?', 0,3))
+input_agua = float(st.slider('Quantos litros de água você bebe diariamente?', 0,3))
 st.write('### Calorias')
 input_calorias = st.radio(' Você monitora as calorias que ingere diariamente?',['Sim','Não'], index=0)
 input_calorias_dict = {'Sim': 1, 'Não': 0}
