@@ -15,7 +15,7 @@ dados = pd.read_csv('./Modelo/dados_obesidade.csv')
 st.markdown('<style>div[role="listbox"] ul{background-color: #6e42ad}; </style>', unsafe_allow_html=True)
 
 #Título da página
-st.markdown("<h1 style='text-align: center; '> Teste de Obesidade 📝 </h1> ", unsafe_allow_html = True)
+st.markdown("<h1 style='text-align: center; '> Teste de Nível de Gordura 📝 </h1> ", unsafe_allow_html = True)
 st.warning('Preencha o formulário com todos os seus dados pessoais e clique no botão **ENVIAR** no final da página.')
 
 #Listas de opções utilizadas em selects
