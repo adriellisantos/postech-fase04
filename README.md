@@ -19,7 +19,7 @@ As causas da obesidade são multifatoriais e envolvem uma combinação de fatore
 - **Base Streamlit**: Todos os arquivos em Python e imagens utilizadas para gerar a página no Streamlit  
 
 ## Streamlit  
-🔗 [Link da aplicação no Streamlit](https://postech-fase04.streamlit.app/)
+🔗 [Link da aplicação no Streamlit](https://data-analytics-postech-fase04.streamlit.app)
 
 ## Youtube  
 🎥 [Link do vídeo no Youtube](#)
