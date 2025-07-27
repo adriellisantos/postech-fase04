@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 
 # Carrega o dataset com os dados de obesidade
-dados = pd.read_csv('./Modelo/dados_obesidade.csv')
+dados = pd.read_csv('./Base de Dados/dados_obesidade.csv')
 
 #Aplicando estilo ao componente de lista (selectbox/radio) no Streamlit
 st.markdown('<style>div[role="listbox"] ul{background-color: #6e42ad}; </style>', unsafe_allow_html=True)
@@ -196,7 +196,7 @@ X_cliente_transformado = pipeline_teste(teste_novo_cliente)
 #Quando o botão "Enviar" for pressionado
 if st.button('Enviar'):
     #Carregando o modelo treinado e as features esperadas
-    model, feature_names = joblib.load('modelo/modelo.joblib')
+    model, feature_names = joblib.load('./Modelo/modelo.joblib')
     #Garantindo que todas as colunas esperadas pelo modelo estejam presentes
     for col in feature_names:
         if col not in X_cliente_transformado.columns:
